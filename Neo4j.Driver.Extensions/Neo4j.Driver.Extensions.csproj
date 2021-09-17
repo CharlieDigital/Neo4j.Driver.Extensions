@@ -23,12 +23,12 @@
   </ItemGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>D:\Projects\Github\DotNet4Neo4J\Neo4j.Driver.Extensions\Neo4j.Driver.Extensions\Neo4j.Driver.Extensions.xml</DocumentationFile>
+    <DocumentationFile>..\Neo4j.Driver.Extensions.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Ensure.That" Version="9.2.0" />
-    <PackageReference Include="Neo4j.Driver.Signed" Version="4.1.1" />
+    <PackageReference Include="neo4j.driver" Version="4.3.2" />
   </ItemGroup>
 
   <ItemGroup>
